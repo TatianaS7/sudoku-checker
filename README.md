@@ -1,4 +1,5 @@
 # sudoku-checker
+SWE Apprenticeship Admissions Assessment -Sudoku Project
 
 # DESCRIPTION
 Sudoku is a logic puzzle played on a 9x9 grid subdivided into 9 3x3 sub-grids. The player is presented a partially filled puzzle, and must complete it following these rules:
