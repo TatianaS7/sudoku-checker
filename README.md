@@ -1,6 +1,7 @@
-# sudoku-checker
+# Sudoku Checker
+This project was part of an admissions assessment through a program called Multiverse.
 
-# DESCRIPTION
+## DESCRIPTION
 Sudoku is a logic puzzle played on a 9x9 grid subdivided into 9 3x3 sub-grids. The player is presented a partially filled puzzle, and must complete it following these rules:
 
   - Each row must contain the numbers 1-9 (no repeats!)
@@ -11,14 +12,14 @@ Sudoku is a logic puzzle played on a 9x9 grid subdivided into 9 3x3 sub-grids. T
 
 Your final sudoku checker function will be relatively complex. To build it, we're going to write several simple functions that combine to perform a larger complex operation.
 
-# SEPARATION OF CONCERNS
+## SEPARATION OF CONCERNS
 Separation of concerns is another programming design principle for separating a computer program into distinct sections. Each section addresses a separate concern, a set of information that affects the code of a computer program.
 
 There are benefits to writing code with good separation of concerns. When describing the problem of sudoku in plain English, we split the puzzle into three rules. Separation of concerns leads to modular code. With modular code, individual sections can be re-used easily.
 
 Modular code also allows you to improve or modify one section of code without having to know (or change) the details of other sections. This benefit, and the others listed, will become clearer as you write more, increasingly complex code.
 
-# GETTING STARTED
+## GETTING STARTED
 To start, write the following functions:
 
  - getRow: This function should accept two arguments: a sudoku puzzle and a row index. The function should return an array containing the numbers in the specified row.
@@ -72,7 +73,7 @@ See examples below:
 
 # Completing the Sudoku checker function:
 
-# Part 1:
+## Part 1:
 
 We now have functions that accept a sudoku grid and return specific subsections (getRow, getColumn, or getSection).
 
@@ -81,7 +82,7 @@ We now have functions that accept a sudoku grid and return specific subsections 
         includes1to9([1,2,3,4,5,6,7,8,9]) // => true
         includes1to9([1,1,2,3,4,5,6,7,8]) // => false (no 9)
 
-# Part 2:
+## Part 2:
 
 With that function, you have all the parts you need to write your sudoku checker function.
 
